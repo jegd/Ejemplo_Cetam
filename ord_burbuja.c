@@ -27,6 +27,14 @@ for(j = 0; j < size -i -1; j++)
         ord_vector[j] = ord_vector[j+1];
         ord_vector[j+1] = aux;
     }
+
+    printf("\n");
+    printf("La lista de  numeros ordenados: ");
+    for(i=0; i<size; i++)
+    {
+        printf("\n");
+        printf("%d", ord_vector[i]); 
+    }
 }
 
 }
